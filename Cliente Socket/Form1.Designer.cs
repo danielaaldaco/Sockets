@@ -131,6 +131,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Cliente-Socket";
+            FormClosed += Form1_FormClosed;
             ResumeLayout(false);
             PerformLayout();
         }
